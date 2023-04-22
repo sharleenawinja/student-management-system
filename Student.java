@@ -106,6 +106,7 @@ public class Student {
 
     // show status
     public String showInfo() {
+        // add grade and student id and organize output in console
         return "Name: " + firstName + " " + lastName +
         "\nCourses enrolled: " + courses +
         "\nBalance: " + tuitionBalance;
