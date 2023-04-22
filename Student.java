@@ -85,6 +85,9 @@ public class Student {
        
 
     // view balance
+    public void viewBalance() {
+        System.out.println("Your balance is: " + tuitionBalance);
+    }
 
     // pay tuition
 
